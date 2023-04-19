@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Button button5 = (Button) findViewById(R.id.page1_button5);
         Button button6 = (Button) findViewById(R.id.page1_button6);
 
-        button1.setOnClickListener(new View.OnClickListener(){
+        button1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 String url = "https://henricoprevention.org/youth-leadership/";
                 Intent intent = new Intent(Intent.ACTION_VIEW);
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        button2.setOnClickListener(new View.OnClickListener(){
+        button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 String url = "https://henricoprevention.org/resources/";
                 Intent intent = new Intent(Intent.ACTION_VIEW);
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        button3.setOnClickListener(new View.OnClickListener(){
+        button3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 String url = "https://henricoprevention.org/service-partners/";
                 Intent intent = new Intent(Intent.ACTION_VIEW);
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        button4.setOnClickListener(new View.OnClickListener(){
+        button4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 String url = "https://www.instagram.com/henricotoosmart/";
                 Intent intent = new Intent(Intent.ACTION_VIEW);
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        button5.setOnClickListener(new View.OnClickListener(){
+        button5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 String url = "https://www.youtube.com/channel/UCPoL8cFoxCdPlZFsa8YoLlQ";
                 Intent intent = new Intent(Intent.ACTION_VIEW);
@@ -63,14 +63,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        button6.setOnClickListener(new View.OnClickListener(){
+        button6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                String url = "https://www.example.com";
+                String url = "";
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(url));
                 startActivity(intent);
             }
         });
     }
-
 }
