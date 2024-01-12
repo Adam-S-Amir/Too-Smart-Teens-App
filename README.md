@@ -9,3 +9,17 @@
 ![alt text](https://raw.githubusercontent.com/MagnusMarx/Too-Smart-Teens-App/main/Main-Page.png)
 
 ![alt text](https://raw.githubusercontent.com/MagnusMarx/Too-Smart-Teens-App/main/App-Icons.png)
+
+## Changes
+ - [x] Bottom Buttons are rounded
+   - [x] Margin Bottom is set at 5dp
+   - [x] Both are buttons with styles
+ - [x] Rm
+   - [x] Oval.xml
+   - [x] 988 Orange Photo
+ - [x] Button text color is orange
+ - [x] Floating text color is orange
+ - [ ] Language locals
+ - [ ] Re-build entire project
+
+In theory it works, but won't know until project rebuild
