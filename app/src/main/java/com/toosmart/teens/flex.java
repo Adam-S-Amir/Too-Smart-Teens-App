@@ -16,7 +16,7 @@ public class flex extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.flex);
 
-        ImageView button7 = (ImageView) findViewById(R.id.fab1);
+        Button button7 = (Button) findViewById(R.id.fab1);
         Button button8 = (Button) findViewById(R.id.fab2);
 
         button7.setOnClickListener(new View.OnClickListener() {
