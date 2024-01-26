@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="75dp"
     tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="0dp"
-    android:paddingBottom="75dp">
+    tools:layout_editor_absoluteY="0dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity"
-        android:backgroundTint="#F8F5F4">
+        android:backgroundTint="#F8F5F4"
+        tools:context=".MainActivity">
 
         <ImageView
             android:id="@+id/imageView3"
@@ -35,8 +35,8 @@
             android:layout_marginEnd="24dp"
             android:layout_marginBottom="47dp"
             android:text="@string/desc_txt1_home"
-            android:textColor="@color/orange"
             android:textAlignment="center"
+            android:textColor="@color/orange"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@+id/imageView3"
             app:layout_constraintEnd_toEndOf="parent"
@@ -52,6 +52,7 @@
             android:layout_marginBottom="308dp"
             android:text="@string/menu_page2"
             android:textColor="@color/orange"
+            android:backgroundTint="@color/purple_500"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -65,6 +66,7 @@
             android:layout_marginEnd="14dp"
             android:text="@string/menu_page3"
             android:textColor="@color/orange"
+            android:backgroundTint="@color/purple_500"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/page1_button1" />
@@ -78,6 +80,7 @@
             android:layout_marginEnd="14dp"
             android:text="@string/menu_page4"
             android:textColor="@color/orange"
+            android:backgroundTint="@color/purple_500"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/page1_button2" />
@@ -91,6 +94,7 @@
             android:layout_marginEnd="14dp"
             android:text="HTS2S Instagram"
             android:textColor="@color/orange"
+            android:backgroundTint="@color/purple_500"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/page1_button3" />
@@ -104,6 +108,7 @@
             android:layout_marginEnd="14dp"
             android:text="HTS2S YouTube"
             android:textColor="@color/orange"
+            android:backgroundTint="@color/purple_500"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/page1_button4" />
@@ -117,6 +122,7 @@
             android:layout_marginEnd="14dp"
             android:text="Ask Steve"
             android:textColor="@color/orange"
+            android:backgroundTint="@color/purple_500"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/page1_button5" />
