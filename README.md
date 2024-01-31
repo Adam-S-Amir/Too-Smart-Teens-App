@@ -12,5 +12,5 @@
 
 ## TODO
  - [ ] Re-build entire project in Kotlin
-
-In theory it works, but won't know until project rebuild
+ - [ ] Experiment with OpenAI Kotlin Lib
+ - [ ] Experiment with WebView & Embedded Google Calendar
