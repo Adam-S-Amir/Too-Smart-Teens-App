@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="25dp"
             android:layout_marginBottom="45dp"
-            android:text="Advocacy Community Collaboration Awareness Sustainability"
+            android:text="Advocacy\n Community\n Collaboration\n Awareness\n Sustainability"
             android:textAlignment="center"
             android:textColor="@color/orange"
             android:textSize="20sp"
